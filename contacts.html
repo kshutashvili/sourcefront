@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/fontawesome-stars.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <script src="https://vk.com/js/api/openapi.js?139" type="text/javascript"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="header">
+        <div class="container">
+
+            <div class="top_menu">
+                <ul>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Доставка и оплата</a></li>
+                    <li><a href="#">Гарантия</a></li>
+                    <li><a href="#">Кредит</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="header_right">
+                <div class="lang">
+                    <a href="#">RU</a>
+                    <span>|</span>
+                    <a href="#">UA</a>
+                </div>
+                <div class="search">
+                    <input type="text" placeholder="поиск">
+                </div>
+            </div>
+
+
+        </div>
+        <div class="container">
+            <div class="logo">
+                <a href="#"><img src="img/logo.png" alt=""></a>
+            </div>
+            <div class="contacts">
+                <a href="tel:+380988598880"><span>(098)</span>859-88-80</a>
+                <a href="tel:+380995598880"><span>(099)</span>559-88-80</a>
+                <a href="tel:+380931498880"><span>(093)</span>149-88-80</a>
+                <a href="#" class="zakaz_zvon">Заказать звонок</a>
+            </div>
+            <div class="basket">
+
+                <div class="dropdown">
+                    <a href="#" class="btn btn-default dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        Сравнение
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li>
+                            <a href="#" class="sravn_items">Название категории</a>
+                            <a href="#" class="sravn_delete"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="sravn_items">Название категории</a>
+                            <a href="#" class="sravn_delete"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="sravn_items">Название категории</a>
+                            <a href="#" class="sravn_delete"></a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="dropdown dropdown_2">
+                    <a href="#" class="btn btn-default dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        Корзина
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <li>
+                            <p class="basket_how_many">В <span class="red">Вашей корзине</span> товаров: <span class="">2</span></p>
+                        </li>
+                        <li>
+                            <div class="basket_elem">
+                                <img src="img/basket_item_img.png" alt="">
+                                <p class="basket_item_name">Твердотопливный котел Defro Komfort Eko 20</p>
+                                <p class="basket_item_number">1 шт.</p>
+                                <p class="basket_item_price">22 800 грн.</p>
+                            </div>
+                            <div class="basket_elem">
+                                <img src="img/basket_item_img.png" alt="">
+                                <p class="basket_item_name">Твердотопливный котел Defro Komfort Eko 20</p>
+                                <p class="basket_item_number">1 шт.</p>
+                                <p class="basket_item_price">22 800 грн.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="basket_how_much">Итого: <span>45 600 грн.</span></p>
+                        </li>
+                        <li>
+                            <a href="#" class="basket_button_zakaz">Оформить заказ</a>
+                            <a href="#" class="basket_goto">Перейти в корзину</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="container main_container">
+        <div class="main_block clear_fix">
+
+            <div class="left_side">
+
+                <a class="left_side_caption catalog_left_side_caption" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    Каталог товаров
+                </a>
+                <div class="collapse" id="collapseExample">
+                    <div class="well">
+
+                        <ul class="left_menu">
+                            <li>
+                                <div class="dropdown">
+                                    <a href="#" class="btn btn-default dropdown-toggle" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                        Котлы Lux
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+                                        <li class="clear_fix">
+                                            <img src="img/menu_item.png" alt="">
+                                            <div class="menu_item_links">
+                                                <a href="#" class="menu_item_caption">Серия Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Uni</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell Lux</a>
+                                            </div>
+                                        </li>
+                                        <li class="clear_fix">
+                                            <img src="img/menu_item.png" alt="">
+                                            <div class="menu_item_links">
+                                                <a href="#" class="menu_item_caption">Серия Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Uni</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell Lux</a>
+                                            </div>
+                                        </li>
+                                        <li class="clear_fix">
+                                            <img src="img/menu_item.png" alt="">
+                                            <div class="menu_item_links">
+                                                <a href="#" class="menu_item_caption">Серия Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Uni</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell Lux</a>
+                                            </div>
+                                        </li>
+                                        <li class="clear_fix">
+                                            <img src="img/menu_item.png" alt="">
+                                            <div class="menu_item_links">
+                                                <a href="#" class="menu_item_caption">Серия Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Uni</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell Lux</a>
+                                            </div>
+                                        </li>
+                                        <li class="clear_fix">
+                                            <img src="img/menu_item.png" alt="">
+                                            <div class="menu_item_links">
+                                                <a href="#" class="menu_item_caption">Серия Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Uni</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell Lux</a>
+                                            </div>
+                                        </li>
+                                        <li class="clear_fix">
+                                            <img src="img/menu_item.png" alt="">
+                                            <div class="menu_item_links">
+                                                <a href="#" class="menu_item_caption">Серия Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Uni</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell Lux</a>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dropdown">
+                                    <a href="#" class="btn btn-default dropdown-toggle" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                        Котлы Standart
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
+                                        <li class="clear_fix">
+                                            <img src="img/menu_item.png" alt="">
+                                            <div class="menu_item_links">
+                                                <a href="#" class="menu_item_caption">Серия Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Uni</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell Lux</a>
+                                            </div>
+                                        </li>
+                                        <li class="clear_fix">
+                                            <img src="img/menu_item.png" alt="">
+                                            <div class="menu_item_links">
+                                                <a href="#" class="menu_item_caption">Серия Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Uni</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell Lux</a>
+                                            </div>
+                                        </li>
+                                        <li class="clear_fix">
+                                            <img src="img/menu_item.png" alt="">
+                                            <div class="menu_item_links">
+                                                <a href="#" class="menu_item_caption">Серия Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Uni</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell Lux</a>
+                                            </div>
+                                        </li>
+                                        <li class="clear_fix">
+                                            <img src="img/menu_item.png" alt="">
+                                            <div class="menu_item_links">
+                                                <a href="#" class="menu_item_caption">Серия Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Uni</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell Lux</a>
+                                            </div>
+                                        </li>
+                                        <li class="clear_fix">
+                                            <img src="img/menu_item.png" alt="">
+                                            <div class="menu_item_links">
+                                                <a href="#" class="menu_item_caption">Серия Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Uni</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell Lux</a>
+                                            </div>
+                                        </li>
+                                        <li class="clear_fix">
+                                            <img src="img/menu_item.png" alt="">
+                                            <div class="menu_item_links">
+                                                <a href="#" class="menu_item_caption">Серия Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Uni</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell Lux</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dropdown">
+                                    <a href="#" class="btn btn-default dropdown-toggle" id="dropdownMenu5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                        Котлы з ручной подачей
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu5">
+                                        <li class="clear_fix">
+                                            <img src="img/menu_item.png" alt="">
+                                            <div class="menu_item_links">
+                                                <a href="#" class="menu_item_caption">Серия Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Uni</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell Lux</a>
+                                            </div>
+                                        </li>
+                                        <li class="clear_fix">
+                                            <img src="img/menu_item.png" alt="">
+                                            <div class="menu_item_links">
+                                                <a href="#" class="menu_item_caption">Серия Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Uni</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell Lux</a>
+                                            </div>
+                                        </li>
+                                        <li class="clear_fix">
+                                            <img src="img/menu_item.png" alt="">
+                                            <div class="menu_item_links">
+                                                <a href="#" class="menu_item_caption">Серия Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Uni</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell Lux</a>
+                                            </div>
+                                        </li>
+                                        <li class="clear_fix">
+                                            <img src="img/menu_item.png" alt="">
+                                            <div class="menu_item_links">
+                                                <a href="#" class="menu_item_caption">Серия Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Uni</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell Lux</a>
+                                            </div>
+                                        </li>
+                                        <li class="clear_fix">
+                                            <img src="img/menu_item.png" alt="">
+                                            <div class="menu_item_links">
+                                                <a href="#" class="menu_item_caption">Серия Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Uni</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell Lux</a>
+                                            </div>
+                                        </li>
+                                        <li class="clear_fix">
+                                            <img src="img/menu_item.png" alt="">
+                                            <div class="menu_item_links">
+                                                <a href="#" class="menu_item_caption">Серия Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Uni</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell Lux</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dropdown">
+                                    <a href="#" class="btn btn-default dropdown-toggle" id="dropdownMenu6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                        Котлы з автоматической подачей
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu6">
+                                        <li class="clear_fix">
+                                            <img src="img/menu_item.png" alt="">
+                                            <div class="menu_item_links">
+                                                <a href="#" class="menu_item_caption">Серия Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Uni</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell Lux</a>
+                                            </div>
+                                        </li>
+                                        <li class="clear_fix">
+                                            <img src="img/menu_item.png" alt="">
+                                            <div class="menu_item_links">
+                                                <a href="#" class="menu_item_caption">Серия Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Uni</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell Lux</a>
+                                            </div>
+                                        </li>
+                                        <li class="clear_fix">
+                                            <img src="img/menu_item.png" alt="">
+                                            <div class="menu_item_links">
+                                                <a href="#" class="menu_item_caption">Серия Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Uni</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell Lux</a>
+                                            </div>
+                                        </li>
+                                        <li class="clear_fix">
+                                            <img src="img/menu_item.png" alt="">
+                                            <div class="menu_item_links">
+                                                <a href="#" class="menu_item_caption">Серия Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Uni</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell Lux</a>
+                                            </div>
+                                        </li>
+                                        <li class="clear_fix">
+                                            <img src="img/menu_item.png" alt="">
+                                            <div class="menu_item_links">
+                                                <a href="#" class="menu_item_caption">Серия Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Uni</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell Lux</a>
+                                            </div>
+                                        </li>
+                                        <li class="clear_fix">
+                                            <img src="img/menu_item.png" alt="">
+                                            <div class="menu_item_links">
+                                                <a href="#" class="menu_item_caption">Серия Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Uni</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell Lux</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dropdown">
+                                    <a href="#" class="btn btn-default dropdown-toggle" id="dropdownMenu7" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                        Тепловые насосы
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu7">
+                                        <li class="clear_fix">
+                                            <img src="img/menu_item.png" alt="">
+                                            <div class="menu_item_links">
+                                                <a href="#" class="menu_item_caption">Серия Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Uni</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell Lux</a>
+                                            </div>
+                                        </li>
+                                        <li class="clear_fix">
+                                            <img src="img/menu_item.png" alt="">
+                                            <div class="menu_item_links">
+                                                <a href="#" class="menu_item_caption">Серия Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Uni</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell Lux</a>
+                                            </div>
+                                        </li>
+                                        <li class="clear_fix">
+                                            <img src="img/menu_item.png" alt="">
+                                            <div class="menu_item_links">
+                                                <a href="#" class="menu_item_caption">Серия Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Uni</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell Lux</a>
+                                            </div>
+                                        </li>
+                                        <li class="clear_fix">
+                                            <img src="img/menu_item.png" alt="">
+                                            <div class="menu_item_links">
+                                                <a href="#" class="menu_item_caption">Серия Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Uni</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell Lux</a>
+                                            </div>
+                                        </li>
+                                        <li class="clear_fix">
+                                            <img src="img/menu_item.png" alt="">
+                                            <div class="menu_item_links">
+                                                <a href="#" class="menu_item_caption">Серия Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Uni</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell Lux</a>
+                                            </div>
+                                        </li>
+                                        <li class="clear_fix">
+                                            <img src="img/menu_item.png" alt="">
+                                            <div class="menu_item_links">
+                                                <a href="#" class="menu_item_caption">Серия Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Uni</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell</a>
+                                                <a href="#" class="menu_item_list">Defro Duo Ekopell Lux</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+            <ol class="breadcrumb">
+                <li><a href="#"><img src="img/home.png" alt="" class="solo_img"></a></li>
+                <li class="active">Контакты</li>
+            </ol>
+
+            <div class="main_content contact_content">
+                <div class="row">
+                    <h1>Наши контакты</h1>
+                    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                        <ul class="nav nav-tabs contact_tab" role="tablist">
+                            <li role="presentation"  class="active"><a href="#kiev"  role="tab" data-toggle="tab">Киев</a></li>
+                            <li role="presentation"><a href="#uzhgorod"  role="tab" data-toggle="tab">Ужгород</a></li>
+                            <li role="presentation"><a href="#cherkasy"  role="tab" data-toggle="tab">Черкасы</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 contacts_main_info">
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="kiev">
+                            <div class="contacts_info_block col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                <p class="contacts_info_caption">Адрес нашего офиса</p>
+                                <p class="contacts_info_text contacts_adress">
+                                    г. Киев, ул. Смелянская 159/3
+                                </p>
+                                <p class="contacts_info_caption phone_caption">Наши телефоны</p>
+                                <div class="contacts contacts_info_phone">
+                                    <a href="tel:+380988598880"><span>(098)</span>859-88-80</a>
+                                    <a href="tel:+380995598880"><span>(099)</span>559-88-80</a>
+                                    <a href="tel:+380931498880"><span>(093)</span>149-88-80</a>
+                                    <a href="tel:+380931498880"><span>(093)</span>149-88-80</a>
+                                    <a href="tel:+380931498880"><span>(093)</span>149-88-80</a>
+                                </div>
+                                <p class="contacts_info_caption">График работы</p>
+                                <p class="contacts_info_text contacts_grafik">
+                                    ПН-ПТ: 9:00-18:00; СБ: 9:00-15:00; ВС: Выходной
+                                </p>
+                                <p class="contacts_info_caption">Заказ через корзину 24/7/365:</p>
+                                <p class="fast_delivery_text">
+                                    Ночные заказы обрабатываются с 9:00 до 11:00
+                                </p>
+                            </div>
+                            <div class="contacts_form col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                <p class="contacts_info_caption">Форма обратной связи</p>
+                                <form action="">
+                                    <label for="">Ваше имя <span class="red_star">*</span></label>
+                                    <input type="text">
+                                    <label for="">Ваш email <span class="red_star">*</span></label>
+                                    <input type="email">
+                                    <label for="">Ваш телефон <span class="red_star">*</span></label>
+                                    <input type="text">
+                                    <label for="">Сообщен6ие <span class="red_star">*</span></label>
+                                    <textarea></textarea>
+                                    <p class="contact_comment_pole"><span class="red_star">*</span> -поля обязательные для заполнения</p>
+                                    <input type="submit" value="Отправить сообщение">
+                                </form>
+                            </div>
+                            <div class="contacts_map col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <p>Доставка в любой город Украины перевозчиком "Интайм" или "Новая почта", оплата после получения!</p>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2594.92150610534!2d32.04408631531436!3d49.42929797934753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d14b8884da97b7%3A0xb175142e6ab3a376!2z0LLRg9C70LjRhtGPINCh0LzRltC70Y_QvdGB0YzQutCwLCA5NC8zLCDQp9C10YDQutCw0YHQuCwg0KfQtdGA0LrQsNGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCDQo9C60YDQsNC40L3QsA!5e0!3m2!1sru!2s!4v1494377839057" width="880" height="580" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                            <div role="tabpanel" class="tab-pane" id="uzhgorod">
+                                <div class="contacts_info_block col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <p class="contacts_info_caption">Адрес нашего офиса</p>
+                                    <p class="contacts_info_text contacts_adress">
+                                        г. Ужгород, ул. Смелянская 159/3
+                                    </p>
+                                    <p class="contacts_info_caption phone_caption">Наши телефоны</p>
+                                    <div class="contacts contacts_info_phone">
+                                        <a href="tel:+380988598880"><span>(098)</span>859-88-80</a>
+                                        <a href="tel:+380995598880"><span>(099)</span>559-88-80</a>
+                                        <a href="tel:+380931498880"><span>(093)</span>149-88-80</a>
+                                        <a href="tel:+380931498880"><span>(093)</span>149-88-80</a>
+                                        <a href="tel:+380931498880"><span>(093)</span>149-88-80</a>
+                                    </div>
+                                    <p class="contacts_info_caption">График работы</p>
+                                    <p class="contacts_info_text contacts_grafik">
+                                        ПН-ПТ: 9:00-18:00; СБ: 9:00-15:00; ВС: Выходной
+                                    </p>
+                                    <p class="contacts_info_caption">Заказ через корзину 24/7/365:</p>
+                                    <p class="fast_delivery_text">
+                                        Ночные заказы обрабатываются с 9:00 до 11:00
+                                    </p>
+                                </div>
+                                <div class="contacts_form col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <p class="contacts_info_caption">Форма обратной связи</p>
+                                    <form action="">
+                                        <label for="">Ваше имя <span class="red_star">*</span></label>
+                                        <input type="text">
+                                        <label for="">Ваш email <span class="red_star">*</span></label>
+                                        <input type="email">
+                                        <label for="">Ваш телефон <span class="red_star">*</span></label>
+                                        <input type="text">
+                                        <label for="">Сообщен6ие <span class="red_star">*</span></label>
+                                        <textarea></textarea>
+                                        <p class="contact_comment_pole"><span class="red_star">*</span> -поля обязательные для заполнения</p>
+                                        <input type="submit" value="Отправить сообщение">
+                                    </form>
+                                </div>
+                                <div class="contacts_map col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <p>Доставка в любой город Украины перевозчиком "Интайм" или "Новая почта", оплата после получения!</p>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2594.92150610534!2d32.04408631531436!3d49.42929797934753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d14b8884da97b7%3A0xb175142e6ab3a376!2z0LLRg9C70LjRhtGPINCh0LzRltC70Y_QvdGB0YzQutCwLCA5NC8zLCDQp9C10YDQutCw0YHQuCwg0KfQtdGA0LrQsNGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCDQo9C60YDQsNC40L3QsA!5e0!3m2!1sru!2s!4v1494377839057" width="880" height="580" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="cherkasy">
+                                <div class="contacts_info_block col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <p class="contacts_info_caption">Адрес нашего офиса</p>
+                                    <p class="contacts_info_text contacts_adress">
+                                        г. Черкассы, ул. Смелянская 159/3
+                                    </p>
+                                    <p class="contacts_info_caption phone_caption">Наши телефоны</p>
+                                    <div class="contacts contacts_info_phone">
+                                        <a href="tel:+380988598880"><span>(098)</span>859-88-80</a>
+                                        <a href="tel:+380995598880"><span>(099)</span>559-88-80</a>
+                                        <a href="tel:+380931498880"><span>(093)</span>149-88-80</a>
+                                        <a href="tel:+380931498880"><span>(093)</span>149-88-80</a>
+                                        <a href="tel:+380931498880"><span>(093)</span>149-88-80</a>
+                                    </div>
+                                    <p class="contacts_info_caption">График работы</p>
+                                    <p class="contacts_info_text contacts_grafik">
+                                        ПН-ПТ: 9:00-18:00; СБ: 9:00-15:00; ВС: Выходной
+                                    </p>
+                                    <p class="contacts_info_caption">Заказ через корзину 24/7/365:</p>
+                                    <p class="fast_delivery_text">
+                                        Ночные заказы обрабатываются с 9:00 до 11:00
+                                    </p>
+                                </div>
+                                <div class="contacts_form col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <p class="contacts_info_caption">Форма обратной связи</p>
+                                    <form action="">
+                                        <label for="">Ваше имя <span class="red_star">*</span></label>
+                                        <input type="text">
+                                        <label for="">Ваш email <span class="red_star">*</span></label>
+                                        <input type="email">
+                                        <label for="">Ваш телефон <span class="red_star">*</span></label>
+                                        <input type="text">
+                                        <label for="">Сообщен6ие <span class="red_star">*</span></label>
+                                        <textarea></textarea>
+                                        <p class="contact_comment_pole"><span class="red_star">*</span> -поля обязательные для заполнения</p>
+                                        <input type="submit" value="Отправить сообщение">
+                                    </form>
+                                </div>
+                                <div class="contacts_map col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <p>Доставка в любой город Украины перевозчиком "Интайм" или "Новая почта", оплата после получения!</p>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2594.92150610534!2d32.04408631531436!3d49.42929797934753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d14b8884da97b7%3A0xb175142e6ab3a376!2z0LLRg9C70LjRhtGPINCh0LzRltC70Y_QvdGB0YzQutCwLCA5NC8zLCDQp9C10YDQutCw0YHQuCwg0KfQtdGA0LrQsNGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCDQo9C60YDQsNC40L3QsA!5e0!3m2!1sru!2s!4v1494377839057" width="880" height="580" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="above_footer_block">
+        <div class="bottom_menu_bg">
+            <div class="container">
+                <div class="bottom_menu">
+                    <div class="menu_block">
+                        <p class="menu_block_caption">Помощь</p>
+                        <ul class="menu_block_items">
+                            <li><a href="#">Вопросы и ответы</a></li>
+                            <li><a href="#">Проблемы с заказом</a></li>
+                            <li><a href="#">Обратная связь</a></li>
+                            <li><a href="#">Монтаж и сервис</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu_block">
+                        <p class="menu_block_caption">О нас</p>
+                        <ul class="menu_block_items">
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">Сотрудничество</a></li>
+                            <li><a href="#">Условия использования сайта</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu_block">
+                        <p class="menu_block_caption">Как связаться</p>
+                        <ul class="contact_ul">
+                            <li><a href="tel:+0988598880">(098) 859-88-80</a></li>
+                            <li><a href="tel:+0995598880">(099) 559-88-80</a></li>
+                            <li><a href="tel:+0931498880">(093) 149-88-80</a></li>
+                            <li><a href="#" class="predstav">Наши представительства</a></li>
+                        </ul>
+
+                        <div class="time_work">
+                            <p>Пн.-Пт.: <span> с 9:00 до 18:00</span></p>
+                            <p>Сб:<span> с 9:00 до 15:00</span></p>
+                            <a href="mailto:info@defro.org.ua/">info@defro.org.ua/</a>
+                        </div>
+                    </div>
+                    <div class="menu_block">
+                        <p class="menu_block_caption">Принимаем к оплате</p>
+                        <img src="img/footer/master.png" alt="">
+                        <img src="img/footer/visa.png" alt="">
+                    </div>
+                    <div class="grafik">
+                        <div class="time_work">
+                            <p class="grafik_caption">График работы call-центра</p>
+                            <p>Пн.-Пт.: <span> с 9:00 до 18:00</span></p>
+                            <p>Сб:<span> с 9:00 до 15:00</span></p>
+                            <p>Вс: <span> выходной</span></p>
+                        </div>
+                        <div class="time_work">
+                            <p class="grafik_caption">Заказ через корзину 24/7/365</p>
+                            <p class="grafik_special">Ночные заказы обрабатываются</p>
+                            <p>с 9:00 до 11:00</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="logo_footer">
+                <a href="#">
+                    <img src="img/footer/logo.png" alt="">
+                </a>
+            </div>
+            <div class="rights">
+                <p>© 2017 интернет-магазин <br> твердотопливных котлов Defro тм</p>
+
+            </div>
+            <div class="social">
+                <p>Мы в соцсетях, <br> присоединяйтесь!</p>
+
+                <a href="#"><img src="img/footer/fb.png" alt=""></a>
+                <a href="#"><img src="img/footer/vk.png" alt=""></a>
+                <a href="#"><img src="img/footer/mail.png" alt=""></a>
+                <a href="#"><img src="img/footer/tw.png" alt=""></a>
+                <a href="#"><img src="img/footer/od.png" alt=""></a>
+                <a href="#"><img src="img/footer/p.png" alt=""></a>
+                <a href="#"><img src="img/footer/google.png" alt=""></a>
+                <a href="#"><img src="img/footer/youtube.png" alt=""></a>
+            </div>
+        </div>
+        <div id="scrollup"><img alt="Прокрутить вверх" src="img/button_up.png"></div>
+    </div>
+</div>
+<div class="shadow catalog_shadow"></div>
+</body>
+
+<script src="js/jquery-2-0-0.js"></script>
+<script src="js/jquery.ui-slider.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script src="js/script-for-catalog.js"></script>
+<script src="js/script-slider-UI.js"></script>
+<script src="js/jquery.barrating.min.js"></script>
+
+
+</html>
