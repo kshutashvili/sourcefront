@@ -91,8 +91,17 @@ $(document).ready(function(){
     });
     scrolbar_on();
     colapsehide ();
+    mobile_menu_construct ();
 });
-$(window).resize(function() {colapsehide (); scrolbar_on()});
+$(window).resize(function() {colapsehide (); scrolbar_on(); mobile_menu_construct ()});
+function mobile_menu_construct ()
+{
+    if($(window).width()<=610) {
+        $('.header_right .lang').appendTo( $('.top_menu'));
+        $('.header_contacts').appendTo( $('.top_menu'));
+    } 
+    
+}
 function colapsehide () {
     if($(window).width()<=460)
     {

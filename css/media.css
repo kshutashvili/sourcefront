@@ -94,7 +94,7 @@
     .catalog_item_block_second
     {
         margin-left: 0;
-    }
+    }    
     /*compare_table*/
     .compare_table_add {
         width: 220px;
@@ -247,6 +247,20 @@
         width: 97%;
         padding: 23px 5px 28px;
     }
+    /*default_blocks*/
+    .default_bottom_menu .container
+    {
+        width: 100%;
+    }
+    .default_bottom_menu .bottom_menu {
+        display: flex;
+        flex-wrap: wrap;
+    } 
+    .default_bottom_menu .bottom_menu .menu_block {
+        flex-basis: 24%;
+    }
+    
+    
 }
 @media screen and (max-width: 992px){
     .lang
@@ -777,8 +791,24 @@
     {
         margin-bottom: 70px;
     }
+   
 }
 
+@media screen and (max-width: 882px) {
+     /*default_block*/
+    .default_bottom_menu .bottom_menu{
+        display: block;
+        padding: 30px 25px;
+        position: relative;
+    }
+    .default_bottom_menu .bottom_menu .menu_block {
+    margin-bottom: 15px;
+    }
+    .default_bottom_menu .bottom_menu .menu_block:nth-child(4) {
+    position: absolute;
+    top: 30px;
+    }
+}
 @media screen and (max-width: 768px) {
     .zakaz_zvon {
         position: absolute;
@@ -1502,29 +1532,68 @@
         background-color: #fff;
         z-index: 999;
         left: 0;
-        right: 0;
+       right: 20%;
         display: none;
+        background-image: url('../img/lines.png');
+        background-repeat: no-repeat;
+        background-position: 20px 25px;
+        position: fixed;
+        min-height: 100%;
     }
-
+    .header
+    {
+        z-index: inherit;
+    }
+    .bx-wrapper .bx-controls-direction a {
+        z-index: 500
+    }
+    .top_menu ul {
+       margin-top: 65px;
+        border-top: 1px solid #9a9a9a;
+        border-left: 7px solid #f36b71;
+    }
     .top_menu ul li {
         display: block;
-        border-bottom: 1px solid #ed1b24;
+        border-bottom: 1px solid #9a9a9a;
     }
 
     .top_menu ul li a {
 
         border: none;
-        margin: 25px 30px 25px;
+        margin: 0 30px;
         font-size: 20px;
         font-weight: 100;
+        padding: 15px 0;
     }
-
-    .contacts {
+    .lang
+    {
+        margin-left: 35px;
+        margin-top: 10px;
+        width: 150px;
+        border-bottom: 1px solid #9a9a9a; 
+    }
+    .lang a {       
+        margin: 10px 2px;
+        font-size: 18px;
+    }
+    .header_contacts {
+        display: block;
+        margin-top: 15px;
+        margin-left: 25px;
+    }
+    .header_contacts  a {
+        width: 100%;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }   
+    .header_contacts a.zakaz_zvon {
+        font-size: 16px;
+        text-decoration: underline dashed;
+        background: url("../img/call.png") no-repeat left center;
         display: none;
     }
-
-    .lang {
-        display: none;
+    .header_contacts span {
+        font-size: 18px;
     }
 
     .logo {
@@ -1906,6 +1975,18 @@
     .zakaz_details_tovar .letter_details_price {
         position: static;
     }
+    /*default_blocks*/
+    .default_bottom_menu
+    {
+        display: block;
+    }
+     .default_bottom_menu .bottom_menu .menu_block:nth-child(4) {
+    position: static;
+    margin-bottom: 0;
+    } 
+    .default_bottom_menu .bottom_menu {
+        background: none
+    }
 }
 
 @media screen and (max-width: 510px) {
@@ -2069,7 +2150,7 @@
     .left_side a.left_side_caption {
         margin: 5px auto;
         display: block;
-        z-index: 820;
+        z-index: 800;
         position: relative;
         background-color: #fff;
     }
@@ -2336,6 +2417,18 @@
     .catalog_items.catalog_item_list .line_through {   
     float: none;
     }
+    /*default_blocks*/
+   .default_bottom_menu  .bottom_menu .menu_block, .default_bottom_menu .bottom_menu .menu_block:nth-child(4) {
+       position: relative;
+       top: 0;
+    }
+    
+    .default_bottom_menu .footer_info {
+        display: none;
+    }
+    .bottom_menu .grafik {
+        margin-top: 20px
+    }
 }
 
 
@@ -2561,6 +2654,10 @@
     .category_block ul li {
     max-width: 145px;
     }
+    /*default_blocks*/
+    .default_bottom_menu .bottom_menu {    
+    padding: 30px 0px;
+    }
 }
 @media screen and (max-width: 360px) {
     .left_menu {
@@ -2605,6 +2702,10 @@
     }
     .filter_media .fa {
     right: 10px;
+    }
+    /*default_blocks*/
+    .footer {
+    height: 195px;
     }
 
 }
