@@ -4886,7 +4886,147 @@ a.compare_table_clean_button{
     border-top: 1px solid #dfdede;
     padding-top: 20px;  
 }
+.modal_mobile_sort
+{
+    position: fixed;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    height: 250px;
+    width: 300px;
+    z-index: 999;
+    top: 50%;
+    margin-top: -125px;
+    left: 50%;
+    margin-left: -150px;
+    padding: 0 20px;
+    display: none;
+}
+.modal_mobile_sort h2
+{
+    font-size: 22px;
+    color: #3e3e3e;
+    position: relative;
+}
+.modal_mobile_sort ul
+{
+    border: 1px solid #b1b1b1;    
+}
+.modal_mobile_sort li
+{
+   padding: 10px;   
+    border-bottom: 1px solid #b1b1b1;
+    cursor: pointer;
+}
+.modal_mobile_sort li.active
+{
+  background-color: #ececec
+}
+.modal_mobile_sort li:last-child
+{  
+    border-bottom: none;
+}
+.modal_mobile_sort li a
+{
+   color: #3e3e3e;   
+}
+.modal_mobile_sort .close
+{
+    display: block;
+    background-image: url(../img/sort_close.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    z-index: 999;
+    top: -70px;
+    right: -20px;
+    opacity: 1;
+}
+.modal_mobile_sort .close:hover
+{    
+    background-image: url(../img/sort_close_active.png);    
+}
+/*header_scroll*/
 
+.headhesive
+{
+    position: fixed;
+    transform: translateY(-100%);
+    transition: 0.5s;
+    left: 0;
+    right: 0;
+}
+.headhesive--stick
+{
+    transform: translateY(0);
+}
+.headhesive .top_menu
+{
+    display: none;
+}
+.headhesive .logo
+{
+    display: none;
+}
+.headhesive .lang
+{
+    display: none;
+}
+.headhesive .basket {
+    top: 5px;
+    right: 40px;
+}
+.headhesive .contacts {  
+    display: none;
+}
+.headhesive .mobile_menu {    
+     background: url("../img/mob_menu.png") no-repeat;
+     height: 14px;
+     width: 33px;
+     margin: 20px 10px;
+    display: block;
+    float: left;
+}
+.headhesive .header_right {
+    float: left;
+    margin-top: 10px;
+    width: 330px;
+}
+.name_page
+{
+    display: none;
+}
+.headhesive .name_page {
+    display: inline-block;
+    float: left;
+    margin-top: 16px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ed1b24;
+}
+.headhesive .search input {
+    width: 300px;
+}
+.header_scroll_contacts
+{
+    display: none;
+}
+.headhesive .header_scroll_contacts
+{
+    display: inline-block;
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding-top: 5px;
+}
+.headhesive .header_scroll_contacts p
+{
+   padding-left: 50px;
+}
+.header_scroll_contacts a:nth-child(1) {
+    background: none;
+    padding-left: 0px;
+}
 /***************************************************************************************************************/
 @media( min-width: 1400px){
 	.dropdown_2 .dropdown-menu {

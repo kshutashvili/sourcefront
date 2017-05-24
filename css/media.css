@@ -493,8 +493,9 @@
         z-index: 900;
         background-color: #fff;
         top: 105px;
-        left: 32%;
+        left: 50%;
         display: none;
+        margin-left: -132.5px;
     }
     .otdo_input {
         width: 65px;
@@ -791,8 +792,36 @@
     {
         margin-bottom: 70px;
     }
-   
+    .header_for_zakaz .logo
+    {
+        margin-top: 10px;
+    }
+    .contacts_short
+    {
+        float: none;
+      margin: 0 auto 20px;
+    }
+    /*search*/
+    .sort_vid .caption {
+        background-color: #363636;
+        color: #fff;
+        font-size: 16px;
+        text-transform: uppercase;
+        padding: 13px 20px;
+        margin-bottom: 0;
+        display: inline-block;
+        float: left;   
+        margin-right: 10px;
+    }
+    .search_vid .custom_select
+    {
+        margin-top: 5px;
+    }
+    .search_look_float {    
+        margin-top: 5px;
+    }
 }
+
 
 @media screen and (max-width: 882px) {
      /*default_block*/
@@ -1157,6 +1186,23 @@
     .made_zakaz_container .letter_details_tovar {    
         max-width: 85%;
     }
+    .header_for_zakaz .logo {
+        position: static;
+        top: 0;
+        width: 270px;
+        display: inline-block;
+        margin-right: 20px;
+    }    
+    .header_for_zakaz .contacts {
+        margin-top: 0px;
+        width: 55%;
+    }
+    .header_for_zakaz .contacts a{
+       width: 40%;
+    } 
+    .header_for_zakaz .contacts a:nth-child(3){
+       margin-top: 10px;
+    }
     /*catalog_list*/
     .catalog_items.catalog_item_list .catalog_item_block {
         width: 100%;
@@ -1217,6 +1263,12 @@
     .contacts_short_body img {   
         margin-left: 10%;
     }
+    .header_for_zakaz .logo, .header_for_zakaz .logo img {   
+        width: 230px;
+    }
+    .header_for_zakaz .logo {
+        margin-top: 15px;
+    }   
 }
 
 @media screen and (max-width: 672px){
@@ -1422,6 +1474,30 @@
     }
     .catalog_items.catalog_item_list .catalog_item_price {
     text-align: left;
+    }
+    /*search*/
+    .search_look_float, .sort_vid .caption
+    {
+        display: inline-block;
+        width: 33.3%;
+        text-align: center;
+        border: 1px solid #b1b1b1;
+        padding: 7px 0;
+        font: 14px "ArialRegular";
+        text-indent: 0.01px;
+        color: #3e3e3e;
+        position: relative;
+        cursor: pointer;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: left;
+        padding-left: 15px;
+        margin-top: 0;
+        background-color: #fff;
+    }
+    .search_vid
+    {
+        padding-bottom: 50px;
     }
 }
 @media screen and (max-width: 640px) {
@@ -1781,6 +1857,21 @@
     .category_block ul li {        
     max-width: 225px;
     }
+    .header_for_zakaz .logo, .header_for_zakaz .logo img {
+        width: 270px;
+    }
+    .header_for_zakaz .logo {    
+        margin: 15px auto 0;
+        display: block;
+    }
+    .header_for_zakaz .contacts {
+        float: none;
+        width: 100%;
+        padding-left: 20px;
+    }
+    .header_for_zakaz .contacts a {
+        width: 30%;
+    }
 }
 @media screen and (max-width: 580px) {
     .catalog_items ul li:nth-child(2n) {
@@ -1805,6 +1896,14 @@
     .contacts_short_body img {
     width: 210px;
     margin-left: 12%;
+    }
+    /*search*/
+    .search_vid .sort
+    {
+       width: 24%;
+    }
+    .search_look_float, .sort_vid .caption {   
+        width: 38%;
     }
 }
 @media screen and (max-width: 540px) {
@@ -2116,7 +2215,22 @@
     border: none;
         text-align: center;
     }
+    .header_for_zakaz .contacts a {
+        width: 45%;
+    }
+    /*search*/
+    .sort_vid .caption {
+    width: 44%;
+    }
+    .search_vid .sort {
+    width: 26%;
+    }
+    .search_look_float
+    {
+        width: 30%;        
+    }
 }
+
 @media screen and (max-width: 460px) {
 
 
@@ -2498,6 +2612,36 @@
     {
         width: 80px;
     }
+    
+    /*search*/
+    .sort_vid .caption {
+        width: 40%;
+        height: 50px;
+        text-align: center;
+        padding-left: 0;
+    }
+    .search_vid .sort {
+        width: 30%;
+        height: 50px;
+        padding-top: 15px;
+        text-align: center;
+        padding-left: 0;
+    }
+    .search_look_float {   
+        height: 50px;
+        text-align: center;
+        padding-left: 0;
+        padding-top: 5px;
+    }
+     .search_look_float .plitka {
+    right: 0;
+    top: 25px;
+    left: 20px;
+    } 
+    .search_look_float .spisok {
+    right: 20px;
+    top: 25px;
+    }
 }
 @media screen and (max-width: 400px) {
 
@@ -2658,6 +2802,13 @@
     .default_bottom_menu .bottom_menu {    
     padding: 30px 0px;
     }
+    .header_for_zakaz .contacts {  
+        padding-left: 0px;
+    }
+    .header_for_zakaz .contacts a:nth-child(3) {
+        margin: 10px auto;
+        display: block;
+    }
 }
 @media screen and (max-width: 360px) {
     .left_menu {
@@ -2767,6 +2918,31 @@
 }
     .category_block ul li a p {
     font: 15px "ArialRegular";
+    }
+    /*search*/
+    .search_vid {
+    padding-bottom: 85px;
+    }
+    .sort_vid .caption, .search_vid .sort, .search_look_float {   
+        height: 67px;
+        padding-left: 0
+    }
+    .search_vid .sort
+    {
+     padding-top: 25px;
+        width: 35%;
+    }
+    .search_look_float {
+        width: 25%;
+     padding-top: 10px;   
+    }
+    .search_look_float .plitka {   
+        top: 35px;
+        left: 0px;
+    }
+    .search_look_float .spisok {
+    right: 3px;
+    top: 35px;
     }
 }
 @media screen and (max-width: 320px) {

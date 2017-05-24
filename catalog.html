@@ -28,6 +28,7 @@
 					</ul>
 				</div>
 				<div class="mobile_menu" role="button"></div>
+                <p class="name_page">Каталог</p>
 				<div class="header_right">
 					<div class="lang">
 						<a href="#">RU</a>
@@ -37,8 +38,12 @@
 					<div class="search">
 						<input type="text" placeholder="поиск">
 					</div>
+                   
 				</div>
-				
+				  <div class="contacts header_contacts header_scroll_contacts">
+					<a href="tel:+380988598880"><span>(098)</span>859-88-80</a>
+					<p>Еще номера</p>					
+				</div>
 
 			</div>
 			<div class="container">
@@ -51,6 +56,7 @@
 					<a href="tel:+380931498880"><span>(093)</span>149-88-80</a>
 					<a href="#" class="zakaz_zvon">Заказать звонок</a>
 				</div>
+               
 				<div class="basket">
 
 					<div class="dropdown">
@@ -1508,7 +1514,16 @@
 			<div id="scrollup"><img alt="Прокрутить вверх" src="img/button_up.png"></div>
 		</div>
 	</div>
-	<div class="shadow catalog_shadow"></div>
+    <div class='modal_mobile_sort'>
+        <h2>Сортировать:<span class="close"></span></h2>
+        <ul>
+            <li class="active"><a>по популярности</a></li>
+            <li><a>акционные</a></li>
+            <li><a>от дешевых к дорогим</a></li>
+            <li><a>от дорогих к дешевым</a></li>
+        </ul>
+    </div>
+	<div class="shadow"></div>
 </body>
 
 <script src="js/jquery-2-0-0.js"></script>
@@ -1519,8 +1534,10 @@
 <script src="js/script-for-catalog.js"></script>
 <script src="js/script-slider-UI.js"></script>
 <script src="js/jquery.scrollbar.js"></script>
+<script src="js/headhesive.min.js"></script>
 <script src="js/script.js"></script>
 <script src="js/jquery.barrating.min.js"></script>
+
 <script type="text/javascript">
    $(document).ready(function() {
       $('.rating_photo').barrating({
