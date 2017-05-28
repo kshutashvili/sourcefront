@@ -1,9 +1,9 @@
 @media screen and (max-width: 1200px){
-    .contacts
+    .header_contacts
     {
         width: 50%;
     }
-    .contacts a
+    .header_contacts a
     {
         width: 45%;
     }
@@ -147,6 +147,9 @@
     .table_main_har ul li {
         width: 210px;
     }
+    .compare_table_tab_content {    
+        margin-right: 12px;
+    }
     /*tovar_all*/
     .slider_two .bx-wrapper img {
         width: 260px;
@@ -259,10 +262,44 @@
     .default_bottom_menu .bottom_menu .menu_block {
         flex-basis: 24%;
     }
-    
-    
+    /*subcategory_catalog*/
+    .subcategory_catalog .category_block ul li {
+        max-width: 200px;
+    }
+    .subcategory_catalog .category_block ul li a p {
+        margin: 5px 0 0;
+    }
+    /*header_scroll*/
+    .headhesive .header_scroll_contacts {    
+        width: 20%;
+    }
+    .headhesive .header_scroll_contacts .more {
+        padding-left: 65px;
+    }
+    .headhesive .basket {    
+        right: 10%;
+    }
+    /*modal*/
+    .credit_button_modal {
+    margin-left: -482px;
+    max-width: 965px;
+    }
+    .table_caption_modal span:nth-child(3),  .table_caption_modal span:last-child {
+        margin-right: 140px;
+    }
+    .credit_price_modal {    
+    margin-right: 30px;
+    margin-left: 30px;
+    }
 }
 @media screen and (max-width: 992px){
+    .header_contacts a {
+    width: auto;
+    }
+    .headhesive
+    {
+        display: block;
+    }
     .lang
     {
         position: absolute;
@@ -625,7 +662,11 @@
     }
     .compare_block_table ul li {
         display: table-cell;
+    } 
+   .table_main_har ul li div{
+         width: 215px;
     }
+      
     .compare_scroll  > .scroll-element.scroll-x {
         top: 0;
         bottom: auto;
@@ -633,6 +674,8 @@
     }
     .compare_table_tab_content {
         padding-bottom: 0;
+        display: inline-block;
+
     }
     .scrollbar-inner > .scroll-element .scroll-bar {
         background-color: #ed1b24;
@@ -731,6 +774,11 @@
     .contacts_form > form > textarea {
     width: 65%;
     }
+    .contact_tab
+    {
+        width: 460px;
+        margin: 0 auto;
+    }
     /*contacts_main*/
     .contacts_short_body img {
     width: 250px;
@@ -820,6 +868,70 @@
     .search_look_float {    
         margin-top: 5px;
     }
+    .left_menu .dropdown-menu {
+        width: 350px;
+    }
+    /*garantees*/
+    .gar_p {
+        display: block;
+        margin-top: 100px;
+    }
+    .garantees_block p.italic {   
+        margin-top: 20px;
+    }
+    /*subcategory_catalog*/
+    .subcategory_catalog .category_block ul li {
+    max-width: 205px;
+    margin-left: 0;
+    margin-right: 10px;
+    }
+    /*header_scroll*/
+    .headhesive .container
+    {
+        width: 100%;
+    }
+    .headhesive .header_right {    
+        width: 330px;
+    }
+    .headhesive .basket {    
+        right: 40px;
+    }
+    /*modal*/
+    .table_cell_karetka_modal {
+        width: 120px;
+    }
+    .table_cell_karetka_modal .number_of_elems {
+        display: block;
+        text-align: center;
+    } 
+    .table_cell_karetka_modal .number_of_elems span{
+        display: block;
+        margin: 5px 0;
+    }
+    .table_cell_karetka_modal .ui-widget-content {    
+        display: none;
+    }
+    .table_caption_modal span:nth-child(2)
+    {
+        margin-right: 85px;
+    }
+    .table_caption_modal span:nth-child(3)
+    {
+        margin-right: 85px;
+    }
+    .table_caption_modal span:nth-child(3), .table_caption_modal span:last-child {    
+        margin-right: 50px;
+    }
+    .credit_button_modal {
+       margin-left: -384px;
+        max-width: 768px;
+    }
+    .credit_price_modal {
+        margin-right: 15px;
+    }
+    .contacts_short_body .contacts_info_phone {
+    margin-right: 95px;
+    }
 }
 
 
@@ -838,6 +950,19 @@
     top: 30px;
     }
 }
+@media screen and (max-width: 830px) {
+    .headhesive .header_scroll_contacts {    
+        text-align: left;    
+    }
+    .headhesive .header_scroll_contacts .more {
+        padding-left: 0;
+        text-align: center;
+    }
+    .headhesive .more_contacts {   
+        margin-left: -100%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .zakaz_zvon {
         position: absolute;
@@ -873,8 +998,7 @@
         margin-top: -30px;
     }
 
-    .contacts a {
-        width: 25%;
+    .contacts a {       
         font-size: 16px;
     }
 
@@ -1215,6 +1339,71 @@
     .catalog_items.catalog_item_list .catalog_item_info {
     width: 165px;
     }
+    /*header_scroll*/
+    .headhesive .header_right {   
+        width: 290px;
+    }
+    .headhesive .search input {
+        width: 250px;
+    }
+    .headhesive .header_scroll_contacts {
+        margin-top: 5px;
+    }
+    .headhesive .more_contacts {
+       
+        width: 145px;
+    }
+    .headhesive .more_contacts a {
+        width: 100%;
+    }
+    /*subcategory catalog*/
+    .subcategory_catalog .category_block ul li {
+    max-width: 35%;
+    margin-left: 0;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    }
+    .subcategory_catalog .category_block ul li a {
+        width: 250px;
+    }
+    /*modal*/
+    .credit_button_modal {
+        margin-left: -305px;
+        max-width: 610px;
+    }
+    .credit_button_modal .table_cell_modal img {    
+        display: none;
+    }
+    .table_cell_name_modal {    
+        margin-left: 0;
+    }
+    .table_caption_modal span:nth-child(1) {
+        margin-right: 98px;
+    }
+    .table_caption_modal span:nth-child(2) {
+        margin-right: 55px;
+    }
+    .table_caption_modal span:nth-child(3), .table_caption_modal span:last-child {
+        margin-right: 30px;
+    }
+    .table_cell_sail {   
+        margin-right: 10px;
+    }
+    .credit_button_modal .table_cell_modal .buy_button {
+       width: 80px;
+    }
+    .credit_price_modal {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .contacts_short_body .contacts_info_phone {
+        margin-right: 5px;
+    }
+}
+@media screen and (max-width: 730px){
+    .headhesive .basket {   
+        right: 15px;
+    }
 }
 @media screen and (max-width: 715px){
     .tovar_breadcrumb
@@ -1268,7 +1457,17 @@
     }
     .header_for_zakaz .logo {
         margin-top: 15px;
-    }   
+    }  
+    /*header_scroll*/
+    .headhesive .header_right {
+        width: 240px;
+    }
+    .headhesive .search input {
+        width: 200px;
+    }
+   .subcategory_catalog .category_block ul li a {
+        width: 210px;
+    }
 }
 
 @media screen and (max-width: 672px){
@@ -1283,8 +1482,7 @@
     {
         width: 70%;
     }
-    .contacts a {
-        width: 27%;
+    .contacts a {       
         font-size: 15px;
     }
     .contacts span {
@@ -1499,6 +1697,9 @@
     {
         padding-bottom: 50px;
     }
+    .table_cell_karetka_modal .custom_select {
+        display: block;
+    }
 }
 @media screen and (max-width: 640px) {
     /*compare*/
@@ -1531,6 +1732,18 @@
         width: 200px;
         margin-left: 12%;
     }
+    /*header_scroll*/
+    .headhesive .header_right {
+    width: 200px;    
+    }
+    .headhesive .search input {
+    width: 185px;
+    }
+   
+    .left_menu .dropdown-menu {
+        width: 300px;
+    }
+    
 }
 @media screen and (max-width: 610px) {
 
@@ -1619,6 +1832,9 @@
     .header
     {
         z-index: inherit;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
     }
     .bx-wrapper .bx-controls-direction a {
         z-index: 500
@@ -1839,7 +2055,7 @@
         top: 10px;
     }
     .compare_block_table .nav {   
-    top: 685px;
+    top: 655px;
     }
     /*contacts*/
     .contacts_info_phone
@@ -1847,9 +2063,14 @@
         display: block;
     }
     /*catalog*/
-    .tovar_buy_block .rating_number, .br-wrapper {
-        margin-top: 0px;
+     .catalog_main_block .br-wrapper, .compare_block_table .br-wrapper
+    {
+        margin-top: 0;
     }
+   .tovar_buy_block .rating_number, .br-wrapper {
+    margin-top: 40px;
+}
+   
     /*category*/
     .category_block ul li a img {
     max-width: 130px;
@@ -1872,6 +2093,117 @@
     .header_for_zakaz .contacts a {
         width: 30%;
     }
+    .headhesive
+    {
+        display: none;
+    }
+    /*garantees*/
+    .garantees_block img {
+        float: none;
+        margin: 10px auto;
+    }
+    .garantees_block h3 {   
+        margin-top: 20px;
+        text-align: center;
+    }
+    .garantees_block ul {   
+    text-align: center;
+    }
+    .gar_p {    
+    margin-top: 0px;
+    }
+    #scrollup {
+    display: none!important;
+    }
+    .contact_content h1 {   
+    margin-top: 20px;
+    text-align: center;
+    }
+    /*modal*/
+    .credit_button_modal {
+        margin-left: -190px;
+        max-width: 380px;
+    }
+    .credit_button_modal .buy_button_howmuch, .credit_button_modal .buy_button_howmuch span {
+        font-size: 24px;
+    }
+    .credit_modal_caption, .credit_modal_caption span {    
+    font-size: 16px;
+    }
+    .table_caption_modal span:nth-child(1) {
+        margin-right: 85px;
+    }
+    .table_caption_modal span:nth-child(2) {    
+    display: none;
+    }
+    .table_caption_modal span:nth-child(3) {
+        margin-right: 30px;
+    }
+    .table_caption_modal span:last-child
+    {
+        margin-right: 0;
+    }
+    .table_cell_sail {  
+        display: none;
+    }
+    .credit_button_modal .table_cell_modal .buy_button {
+        width: 100%;
+        display: block;
+    }
+    .request_button_modal_third, .request_button_modal_second, .request_button_modal, .ask_button_modal, .buy_button_modal {
+        margin-left: -155px;
+        max-width: 310px;
+    }
+    .modal_form input, .modal_form textarea {  
+    width: 100%;
+    }
+    .buy_button_modal {
+        position: absolute;
+        top: 150px;
+    }
+    .modal_basket_elem img {   
+        margin-right: 10px;
+        height: 80px;
+        margin-bottom: 20px;
+    }
+    .modal_article {   
+        margin-bottom: 7px;
+    }
+    .modal_item_name {   
+        font-size: 14px;
+        margin-bottom: 20px;
+        padding-right: 40px;
+    }
+    .modal_item_delete {
+        right: 15px;
+    }
+    .buy_button_howmuch, .buy_button_howmuch span{    
+    font-size: 18px;
+    }
+    .buy_button_modal .basket_how_much {
+        text-align: center;
+    }
+    .buy_button_modal .basket_how_much span {
+        display: block;
+        width: 100%;
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+    a.modal_basket_goback,  a.modal_basket_goto, .buy_button_modal input.modal_input_goto {
+        display: none;
+    }
+    a.modal_basket_button_zakaz {
+        display: block;
+        width: 250px;
+        margin: 0 auto;
+        text-align: center;
+    }
+        
+}
+@media screen and (max-width: 605px) {
+    .compare_block_table .nav {
+        top: 680px;
+    }
 }
 @media screen and (max-width: 580px) {
     .catalog_items ul li:nth-child(2n) {
@@ -1885,6 +2217,9 @@
     .catalog_items.catalog_item_list ul li {
         width: 100%;
         margin 0;
+    }
+    .subcategory_catalog .category_block ul li {
+    max-width: 40%;
     }
 }
 @media screen and (max-width: 560px) {
@@ -2014,9 +2349,7 @@
         text-align: center;
     }
     /*search*/
-    .search_nothing_container .main_block #collapseExample {
-        left: 27%;
-    }
+    
     /*zakaz*/
     .letter_confirm {
         display: none;
@@ -2090,10 +2423,18 @@
 
 @media screen and (max-width: 510px) {
     .category_block ul li {
-    max-width: 190px;
+    max-width: 190px;        
 }
+    .contacts_short_body img {
+       width: 40%;
+    margin-left: 5px;
+    }
+    .contacts_short_body .contacts_info_phone {
+        width: 47%;
+        margin-right: 5px;
+    }
 }
-    @media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
     /*compare*/
     .compare_container .main_block #collapseExample {
         left: 21%;
@@ -2123,10 +2464,7 @@
     margin-left: -6px;
     }
     /*contacts_main*/
-    .contacts_short_body img {
-    width: 55%;
-    margin-left: 28px;
-    }
+    
     .contact_content h1 {
     font-size: 20px;
     }
@@ -2134,10 +2472,17 @@
     .made_zakaz_container .letter_details_tovar ul li img {    
     width: 100px;
     }
-    
+    .subcategory_catalog .category_block ul li a {
+        width: 180px;
+        height: 210px;
+    }
+    .subcategory_catalog .category_block ul li a img {
+        max-width: 110px;
+    }
 }
 
 @media screen and (max-width: 480px) {
+    
     .compare_block_table .catalog_item_block {
         width: 180px;
     }
@@ -2148,13 +2493,14 @@
         font-size: 17px;
     }
     .compare_block_table .nav {
-        top: 720px;
+        top: 705px;
     }
-    .compare_container .main_block .compare_collapse .left_menu{
-        left: 15% !important;
-    }
+    
     .table_main_har ul li {
         width: 185px;
+    }
+    .table_main_har ul li div {
+    width: 180px;
     }
     /*tovar*/
     table.table_teh_har {
@@ -2229,6 +2575,9 @@
     {
         width: 30%;        
     }
+    .contact_tab {
+    width: 400px;
+    }
 }
 
 @media screen and (max-width: 460px) {
@@ -2278,7 +2627,7 @@
         position: absolute;
         top: 0;
         left: 50%;
-        margin-left: -54px;
+        margin-left: -140px;
     }
     .well {
         z-index: 820;
@@ -2356,6 +2705,7 @@
     }
     .more_block, .list_more, .list_more_second
     {
+        display: block;
         position: relative;
         bottom: 25px;
         width: 140px;
@@ -2426,9 +2776,7 @@
         position: relative;
     }
     /*search*/
-    .search_nothing_container .main_block #collapseExample {
-        left: 9%;
-    }
+    
     /*zakaz*/
     .letter_details_tovar {
         margin-left: 45px;
@@ -2531,6 +2879,9 @@
     .catalog_items.catalog_item_list .line_through {   
     float: none;
     }
+    .contact_tab {
+    width: auto;
+    }
     /*default_blocks*/
    .default_bottom_menu  .bottom_menu .menu_block, .default_bottom_menu .bottom_menu .menu_block:nth-child(4) {
        position: relative;
@@ -2542,6 +2893,11 @@
     }
     .bottom_menu .grafik {
         margin-top: 20px
+    }
+    .main_left_menu
+    {
+        left: 100%;
+        margin-left: -182px;
     }
 }
 
@@ -2589,6 +2945,12 @@
     .category_block ul li a {   
     height: 180px;
     }
+    .compare_main ul li {
+        max-width: 190px;
+    }
+    .main_left_menu {    
+    margin-left: -190px;
+    }
 }
 @media screen and (max-width: 420px) {
     .catalog_item_block {
@@ -2600,12 +2962,9 @@
         margin-bottom: 38px;
     }
     /*contacts_main*/
-    .contacts_short_body img {
-    width: 45%;
-    margin-left: 40px;
-    }
+  
     .contact_content h1 {
-    font-size: 16px;
+        font-size: 18px;
     }
     /*made_zakaz*/
     .made_zakaz_container .letter_details_tovar ul li img
@@ -2642,13 +3001,19 @@
     right: 20px;
     top: 25px;
     }
+    .main_left_menu {
+        margin-left: -200px;
+    }
+    .subcategory_catalog .category_block ul li {
+        max-width: 47%;
+        margin-bottom: 0px;
+    }
 }
 @media screen and (max-width: 400px) {
-
-    .left_menu {
-        left: 20%;
-        margin-left: 0;
+    .left_menu {    
+    margin-left: -155px;
     }
+    
     .third_block .first_calc .other_blocks span:last-child
     {
         display: inline-block;
@@ -2663,9 +3028,7 @@
 
         width: 290px;
     }
-    .search_nothing_container .main_block #collapseExample {
-        left: 6%;
-    }
+   
     /*compare*/
     .compare_block ul li {
         width: 160px;
@@ -2686,13 +3049,8 @@
 
         height: 45px;
     }
-    .compare_collapse
-    {
-        left: 2%!important;
-    }
-    .compare_container .main_block .compare_collapse .left_menu {
-        left: 0;
-    }
+    
+   
     /*tovar*/
     .catalog_item_block {
         margin-left: 10%;
@@ -2727,11 +3085,22 @@
     .spisok {
     right: 10px;
     }
+    .main_left_menu {
+    margin-left: -210px;
+    }
+    .subcategory_catalog .category_block ul li {
+        max-width: 40%;
+    }
+    .subcategory_catalog .category_block ul li a {
+        width: 150px;
+        height: 200px;
+    }
+    .subcategory_catalog .category_block ul li a img {
+        max-width: 100px;
+    }
 }
 @media screen and (max-width: 380px) {
-    .left_menu {
-        left: 17%;
-    }
+    
     /*zakaz*/
     .letter_details_tovar ul li {
         margin: 20px 0;
@@ -2777,6 +3146,9 @@
     .table_main_har ul li {
         width: 165px;
     }
+    .table_main_har ul li div {
+    width: 160px;
+    }
     /*tovar*/
     .catalog_item_block {
         margin-left: 8%;
@@ -2809,10 +3181,60 @@
         margin: 10px auto;
         display: block;
     }
+    .main_left_menu {
+    margin-left: -220px;
+    }
+    /*modal*/    
+    .credit_button_modal {
+        margin-left: -155px;
+        max-width: 310px;
+        top: 100px;
+        position: absolute;
+    }
+    .credit_button_modal a.close
+    {
+        right: 0;
+        top: -25px;
+    }
+    .credit_button_modal .buy_button_howmuch, .credit_button_modal .buy_button_howmuch span {
+    font-size: 18px;
+    }
+    .credit_modal_caption, .credit_modal_caption span {
+    font-size: 14px;    
+    }
+    .credit_button_modal .table_cell_modal:nth-child(1) {  
+        border-top: 1px solid #c4c3c3;
+    }
+    .table_caption_modal {
+        display: none;
+    }
+    .table_cell_name_modal {    
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        max-width: 150px;
+    }
+    .table_cell_karetka_modal {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    .table_cell_karetka_modal .custom_select {
+        display: block;
+        margin: 0 auto;
+    }
+    .table_cell_karetka_modal .number_of_elems {
+        margin: 0px 5px 10px;
+    }
+    .credit_price_modal {   
+        display: block;
+        text-align: center;
+    }
+
 }
 @media screen and (max-width: 360px) {
     .left_menu {
-        left: 13%;
+    margin-left: -170px;
     }
     .compare_block ul li {
         width: 135px;
@@ -2829,8 +3251,8 @@
         padding-left: 70px;
     }
     /*contacts_main*/
-    .contacts_short_body img {    
-        margin-left: 50px;
+   .contacts_short_body .contacts_info_phone {
+       width: 56%;
     }
     /*make_zakaz*/
     .zakaz_details_tovar .letter_details_tovar {
@@ -2858,12 +3280,16 @@
     .footer {
     height: 195px;
     }
+    .main_left_menu {
+    margin-left: -230px;
+    }
 
 }
 @media screen and (max-width: 340px) {
+    
     .left_menu {
-        left: 8%;
-    }
+    margin-left: -175px;
+    }   
     .catalog_item_block {
         margin-left: 0;
     }
@@ -2876,10 +3302,7 @@
     .often_caption.category_block_caption {
         width: 100%;
     }
-    .contacts_short_body img {
-        margin-left: 57px;
-        width: 40%; 
-    }
+    
     /*make_zakaz*/
     .zakaz_details_tovar .letter_details_tovar ul li img {
     width: 70px;
@@ -2944,9 +3367,15 @@
     right: 3px;
     top: 35px;
     }
+    .main_left_menu {
+    margin-left: -240px;
+}
+    .subcategory_catalog .category_block ul li a {
+    width: 135px;
+    }
 }
 @media screen and (max-width: 320px) {
-    .left_menu {
-        left: 5%;
+  .main_left_menu {
+    margin-left: -250px;
     }
 }
